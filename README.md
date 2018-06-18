@@ -2,15 +2,15 @@
 ```
 Basic Commands
 ```
-]#git add [directory_or_file]  
-	Stage all changes in <directory/file> for the next commit.
-]#git commit -m <commit_message>
+]#git add <directory_or_file>  
+	Stage all changes in <directory/file> for the next commit.  
+]#git commit -m <commit_message>  
 	Commit the staged snapshot, but instead of launching a text editor.
-]#git status 
+]#git status  
 	List which files are staged, unstaged, and untracked.	
-]#git log 
-	Display the entire commit history using the default format.
-]#git log --follow <file>
+]#git log  
+	Display the entire commit history using the default format.  
+]#git log --follow <file>  
 	Lists version history for a file, including renames.
 
 
