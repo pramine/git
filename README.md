@@ -16,7 +16,7 @@ Basic Commands
 ```
 Configure Git
 ```
-]#git config --global user.name "<name>"  
+]#git config --global user.name \"<name>\"  
   Sets the name you want atached to your commits.  
 ]#git config --global user.email "<email address>"  
 	Sets the email you want atached to your commits.  
@@ -36,17 +36,17 @@ Create a New Repo
 Git Branches
 ```
 ]#git branch  
-	List all of the branches in your repo.
+	List all of the branches in your repo.  
 ]#git branch <branch_name>  
-	To create a new branch with the name <branch_name>.
+	To create a new branch with the name <branch_name>.  
 ]#git checkout <branch_name>  
-	Switch to an existing branch.
+	Switch to an existing branch.  
 ]#git checkout -b <branch_name>  
-	Create and check out a new branch named <branch>
+	Create and check out a new branch named <branch>  
 ]#git merge <branch_name>  
-	Merge <branch_name> into the current branch.
+	Merge <branch_name> into the current branch.  
 ]# git branch -d <branch-name>  
-	Deletes the specified branch.
+	Deletes the specified branch.  
 ]#git branch -m <oldname> <newname>  
 	To rename a branch while pointed to any branch.  
 ]#git branch -m <newname>  
