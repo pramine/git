@@ -2,9 +2,9 @@
 ```
 Basic Commands
 ```
-]#git add [directory_or_file]
+#git add [directory_or_file]
 	Stage all changes in <directory/file> for the next commit.
-]#git commit -m <commit_message>
+#git commit -m <commit_message>
 	Commit the staged snapshot, but instead of launching a text editor.
 ]#git status 
 	List which files are staged, unstaged, and untracked.	
