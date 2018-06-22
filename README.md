@@ -16,7 +16,7 @@ Basic Commands
 ```
 Configure Git
 ```
-]#git config --global user.name \"<name>\"  
+]#git config --global user.name "<name>"  
   Sets the name you want atached to your commits.  
 ]#git config --global user.email "<email address>"  
 	Sets the email you want atached to your commits.  

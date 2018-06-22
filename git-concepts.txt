@@ -1,0 +1,6 @@
+*What's git rebase ?
+If you started doing some development and then another developer made an unrelated change. 
+You probably want to pull and then rebase to base your changes from the current version from the repo.
+
+*What’s git cherry-pick?
+Cherry picking in git means to choose a commit from one branch and apply it onto another.
