@@ -4,3 +4,13 @@ You probably want to pull and then rebase to base your changes from the current 
 
 *What’s git cherry-pick?
 Cherry picking in git means to choose a commit from one branch and apply it onto another.
+1. Make sure you are on the branch you want to apply the commit to.
+	]#git checkout master
+2.Execute the following:
+	]#git cherry-pick <commit-hash>
+More Info: http://think-like-a-git.net/sections/rebase-from-the-ground-up/cherry-picking-explained.html
+
+*What is git stash?
+when you’ve been working on part of your project, things are in a messy state and you want to switch branches for a bit to work on something else. 
+The problem is, you don’t want to do a commit of half-done work just so you can get back to this point later. The answer to this issue is the git stash command.
+Stashing takes the dirty state of your working directory — that is, your modified tracked files and staged changes — and saves it on a stack of unfinished changes that you can reapply at any time.
